@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# dont commit real/large datasets (synthetic sample in data/ is committed on purpose)
+walmart*.csv
+sales*.csv
+!data/sample_sales.csv
+
+# editors
+.vscode/
+.idea/
+.ipynb_checkpoints/
